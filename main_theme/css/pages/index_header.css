@@ -1,0 +1,19 @@
+#area_header {
+  width: 100%;
+  height: 300px;
+  background-color: $cBack;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#area_header #header_main {
+  width: 100%;
+  height: 50px;
+  background-color: #646464;
+}
+#area_header #header_main #logo {
+  width: 200px;
+  height: 50px;
+  float: left;
+  background-color: #c86400;
+}

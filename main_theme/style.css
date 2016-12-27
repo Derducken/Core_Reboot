@@ -1,0 +1,36 @@
+/*
+Theme Name: core v11
+Theme URI: http://unregistered.gr/core_v11
+Author: Odysseas Kourafalos (Ducklord)
+Author URI: http://unregistered.gr
+Description: New generation of our fluid-as-liquid, working-on-all-screens magazine-like theme. Now GITHUBed and modularized.
+Version: 0.11.001
+Tags: unregistered, core v11, core theme,
+*/
+/* We start with Doctor CSS Reset to zero everything out */
+@import url(css/external/reset.css);
+/* _____________________________________________________ */
+/*                And now, on with the show!             */
+/* _____________________________________________________ */
+::selection {
+  color: rgba(100, 250, 250, 0.9) !important;
+  background: rgba(50, 50, 70, 0.5) !important; }
+
+#container_full #sandbox_main #area_header {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  #container_full #sandbox_main #area_header #header_main {
+    width: 100%;
+    height: 50px;
+    background-color: #646464; }
+    #container_full #sandbox_main #area_header #header_main #logo {
+      width: 200px;
+      height: 50px;
+      float: left;
+      background-color: #c86400; }
+
+/*# sourceMappingURL=style.css.map */
